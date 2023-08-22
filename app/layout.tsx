@@ -43,7 +43,7 @@ const Onest = localFont({
   display: "swap",
 });
 
-import { Layout } from "@/layout";
+import { Layout } from "@/common/layout";
 
 import "./globals.css";
 

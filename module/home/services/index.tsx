@@ -1,10 +1,22 @@
+"use client";
+
 import React from "react";
 import { WebDesignImage } from "./service-images";
+import { UseIntersectionObserver } from "@/common/hooks/useIntersectionObserver";
 
 export const Services = () => {
+  const targetRef = UseIntersectionObserver({
+    onIntersect: () => {
+      targetRef?.current?.classList.add("animate-translateY", "opacity-100");
+    },
+    intersectionOptions: { root: null, rootMargin: "0px", threshold: 0.8 },
+  });
+
+  console.log("Service Page =========>",typeof Window === "undefined");
+
   return (
     <section className="py-24">
-      <div className="text-center">
+      <div className="text-center opacity-0" ref={targetRef}>
         <h2 className="text-6xl font-bold">
           My broad{" "}
           <span

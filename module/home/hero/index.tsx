@@ -1,12 +1,10 @@
-import Link from "next/link";
-
 import { HeroImage } from "./hero-image";
 import { BagIcon, MessageIcon } from "@/components/ui/icon";
 import { Button } from "@/components/ui/button";
 
 export const HomeHero = () => {
   return (
-    <div className="py-8 sm:py-20">
+    <section className="py-8 sm:py-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-5 justify-items-center items-center">
         <div className="text-center lg:text-left max-w-lg lg:max-w-full animate-translateY">
           <h1 className="font-bold text-4xl leading-tight md:text-6xl md:leading-tight xl:text-7xl xl:leading-tight">
@@ -56,6 +54,6 @@ export const HomeHero = () => {
           <HeroImage />
         </div>
       </div>
-    </div>
+    </section>
   );
 };

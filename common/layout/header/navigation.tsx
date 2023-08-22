@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { Menu } from "@/layout/header/menu";
+import { Menu } from "@/common/layout/header/menu";
 import { MessageIcon } from "@/components/ui/icon";
 
 import { NavLinks } from "./data";
