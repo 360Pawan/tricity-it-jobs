@@ -1,0 +1,38 @@
+export const JobsData = [
+  {
+    id: 1,
+    title: "Senior Software Engineer",
+    slug: "/",
+    companyName: "Bits in Glass",
+    location: "Mohali",
+    level: "Senior",
+    department: "Development",
+  },
+  {
+    id: 2,
+    title: "Software Engineer",
+    slug: "/",
+    companyName: "Techy Solutions",
+    location: "Panchkula",
+    level: "Senior",
+    department: "Design",
+  },
+  {
+    id: 3,
+    title: "Devops Engineer",
+    slug: "/",
+    companyName: "Infosys",
+    location: "Chandigarh",
+    level: "Senior",
+    department: "Cloud Management",
+  },
+//   {
+//     id: 4,
+//     title: "HR",
+//     slug: "/",
+//     companyName: "Nagarro",
+//     location: "Chandigarh",
+//     level: "Executive",
+//     department: "Talent Acquisition",
+//   },
+];
